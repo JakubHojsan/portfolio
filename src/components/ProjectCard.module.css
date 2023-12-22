@@ -1,0 +1,101 @@
+.projectsAndProducts {
+  position: relative;
+  font-weight: 300;
+}
+.header {
+  width: 1128px;
+  height: 64px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  font-size: var(--font-size-29xl);
+}
+.project1Child {
+  position: absolute;
+  top: 14px;
+  left: 13px;
+  border-radius: var(--br-6xl);
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.ilioMirror {
+  position: absolute;
+  top: 14px;
+  left: 333px;
+  font-weight: 300;
+}
+.whileThisWasnt {
+  margin: 0;
+}
+.huupe1 {
+  text-decoration: underline;
+}
+.huupe {
+  color: inherit;
+}
+.whileThisWasntContainer {
+  position: absolute;
+  top: 62px;
+  left: 333px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  font-weight: 300;
+  width: 744px;
+  height: 234px;
+}
+.project1 {
+  position: relative;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-darkslategray);
+  width: 1128px;
+  height: 328px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.builtARestaurantContainer {
+  position: absolute;
+  top: 62px;
+  left: 333px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  font-weight: 300;
+  width: 767px;
+  height: 234px;
+}
+.socialsIcon {
+  position: relative;
+  width: 186px;
+  height: 77px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frame,
+.frame1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame1 {
+  width: 186px;
+  position: undefined;
+  height: 89px;
+  margin-left: 1026px;
+  font-size: var(--font-size-3xs);
+}
+.frame {
+  width: 1212px;
+  height: 1595px;
+  flex-shrink: 0;
+  gap: var(--gap-7xl);
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}

@@ -1,0 +1,59 @@
+.welcome {
+  position: relative;
+  font-weight: 300;
+}
+.headshot,
+.hero {
+  height: 1117px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.hero {
+  width: 1728px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 481px 319px;
+  background-image: url(/public/hero@3x.png);
+}
+.headshot {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 155px 151px;
+  background-image: url(/public/headshot@3x.png);
+}
+.frame1,
+.headshot {
+  width: 1728px;
+}
+.frame,
+.frame1,
+.portfolio {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame {
+  width: 1728px;
+  height: 3428px;
+  flex-shrink: 0;
+  gap: var(--gap-7xl);
+}
+.portfolio {
+  position: relative;
+  background-color: var(--color-gray);
+  width: 100%;
+  height: 5064px;
+  gap: 14px;
+  text-align: left;
+  font-size: var(--font-size-81xl);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}

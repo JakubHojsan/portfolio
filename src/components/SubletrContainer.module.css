@@ -1,0 +1,41 @@
+.project1Child {
+  position: absolute;
+  top: 14px;
+  left: 813px;
+  border-radius: var(--br-6xl);
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.subletr {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-weight: 300;
+}
+.alongsideSomeOf {
+  margin: 0;
+}
+.alongsideSomeOfContainer {
+  position: absolute;
+  top: 63px;
+  left: 15px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  font-weight: 300;
+  width: 789px;
+  height: 225px;
+}
+.project1 {
+  position: relative;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-darkslategray);
+  width: 1128px;
+  height: 328px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
