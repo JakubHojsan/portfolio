@@ -12,7 +12,7 @@ const ProjectCard: FunctionComponent = () => {
         <img
           className={styles.project1Child}
           alt=""
-          src="/rectangle-2@2x.png"
+          src="/proj1.png"
         />
         <i className={styles.ilioMirror}>Ilio Mirror</i>
         <i className={styles.whileThisWasntContainer}>
@@ -43,7 +43,7 @@ const ProjectCard: FunctionComponent = () => {
         </i>
       </div>
       <SubletrContainer
-        imageId="/rectangle-2@2x.png"
+        imageId="/proj2.png"
         projectImageUrls="Subletr"
         sublettingSolutionDescrip="Alongside some of my UCLA colleagues, we built a subletting solution that empowered students to find other students to sublet apartments during international study or summers. "
         technologyStack="Built with Mongo.js, React.js, Express, integrated GPT for listing generation, Stripe for payments, and Passport/Firebase for Google Authentication. "
@@ -54,7 +54,7 @@ const ProjectCard: FunctionComponent = () => {
         <img
           className={styles.project1Child}
           alt=""
-          src="/rectangle-2@2x.png"
+          src="/proj3.png"
         />
         <i className={styles.ilioMirror}>QueueCLA</i>
         <i className={styles.builtARestaurantContainer}>
